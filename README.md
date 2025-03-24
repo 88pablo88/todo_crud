@@ -13,9 +13,9 @@
 Open a terminal and run:
 
 ```sh
-git clone https://github.com/88pablo88/project.git
+git clone https://github.com/88pablo88/todo_crud.git
 
-cd project
+cd todo_crud
 ```
 
 ### 2. Install dependencies
