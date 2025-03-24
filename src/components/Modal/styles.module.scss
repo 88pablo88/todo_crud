@@ -1,0 +1,38 @@
+.modalBackDrop {
+  width: 100%;
+  max-width: 414px;
+  height: 100vh;
+  background: rgba(44, 44, 44, 0.75);
+  z-index: 900;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modalContainer {
+  padding: 17px;
+  background-color: white;
+  z-index: 900;
+  width: fit-content;
+  position: absolute;
+  top: 27px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+
+  h1 {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+.close {
+  cursor: pointer;
+}

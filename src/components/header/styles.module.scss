@@ -1,0 +1,14 @@
+.container {
+  height: 62px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23.3px;
+  border-bottom: 2px solid #c9c9c9;
+  background-color: white;
+
+  img {
+    cursor: pointer;
+  }
+}

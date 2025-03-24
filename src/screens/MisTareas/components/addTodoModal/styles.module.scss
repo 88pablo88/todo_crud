@@ -1,0 +1,19 @@
+.formContainer {
+  padding-top: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 21px;
+}
+
+.error {
+  color: #cc3872;
+  font-size: 15px;
+}

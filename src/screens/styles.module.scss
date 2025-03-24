@@ -1,0 +1,26 @@
+.layout {
+  height: 100vh;
+  width: 100%;
+  max-width: 414px;
+  overflow: auto;
+  position: relative;
+  margin: 0 auto;
+}
+
+.headerContainer {
+  width: 100%;
+  max-width: 414px;
+  position: fixed;
+  top: 0;
+}
+
+.bodyContainer {
+  width: 100%;
+  max-width: 414px;
+  position: fixed;
+  top: 112px;
+  height: calc(100vh - 112px);
+  overflow: auto;
+  padding: 38px 14px;
+  background-color: #f2f2f2;
+}

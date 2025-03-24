@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  justify-content: center;
+  gap: 8px;
+
+  & label {
+    color: #555555;
+  }
+}
+.inputArea {
+  border-radius: 3px;
+  height: 156px;
+  width: 100%;
+  overflow: auto;
+  resize: none;
+  border: 1px solid #c9c9c9;
+  padding: 9px 18px;
+
+  &:focus {
+    border: 1px solid #639605;
+    outline: none;
+  }
+}
+
+textarea::placeholder {
+  color: #c9c9c9;
+}
